@@ -5,7 +5,7 @@ enteryNumber = 162;
 
 data = readtable('train.csv');
 data = data{:, :};
-img = 255 - imread("number ttest.png");
+img = 255 - imread("number base.png");
 
 temp = zeros(28);
 temp2 = zeros(28);
