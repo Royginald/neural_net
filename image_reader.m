@@ -3,9 +3,9 @@ clc;
 
 enteryNumber = 162;
 
-data = readtable('C:\Users\RoyMc\Documents\Programing\IdeaProjects\neural net test\train.csv');
+data = readtable('train.csv');
 data = data{:, :};
-img = 255 - imread("C:\Users\RoyMc\Documents\Programing\number ttest.png");
+img = 255 - imread("number ttest.png");
 
 temp = zeros(28);
 temp2 = zeros(28);
